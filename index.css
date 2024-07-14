@@ -1,3 +1,7 @@
+html{
+
+
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -19,7 +23,7 @@ logo img{
 
 /*body*/
 body{
-  background: linear-gradient(120deg,#451952  40%, #FFB000 100%);
+  background: linear-gradient(120deg,#451952  33.33%, red 60%, #FFB000 33.33%, green);
 }
 
 #mynavbar{
@@ -214,5 +218,7 @@ body{
     color: aqua;
 }
 
+
+}
 
 }
