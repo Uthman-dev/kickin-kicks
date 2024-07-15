@@ -23,7 +23,7 @@ logo img{
 
 /*body*/
 body{
-  background: linear-gradient(120deg,#451952  33.33%, red 60%, #FFB000 33.33%, green);
+  background: linear-gradient(120deg, #451952 60%, #FFB000);
 }
 
 #mynavbar{
@@ -75,9 +75,9 @@ body{
 
 .product-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(8, 1fr);
     grid-gap: 20px;
-    margin: 50px;
+    margin: 10px;
 
   }
   
@@ -96,7 +96,7 @@ body{
   
   .product-card img {
     width: 100%;
-    height: 400px;
+    height: 200px;
     object-fit: cover;
   }
   
@@ -151,7 +151,7 @@ body{
 
 .product-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;
   margin: 20px;
 
@@ -160,12 +160,18 @@ body{
 
 .product-card img {
   width: 100%;
-  height: 100px;
+  height: 150px;
   object-fit: cover;
 }
 
 
 /* Item navigation bar*/
+
+.item-navbar{
+  padding: 50px;
+  text-align: center;
+  padding-top:80px;
+}
 
 
 .item-navbar button{
